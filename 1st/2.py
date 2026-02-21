@@ -4,6 +4,7 @@
 # Input: arr[] = [1, 4, 3, 5, 8, 6]
 # Output: [1, 8]
 # Explanation: minimum and maximum elements of array are 1 and 8
+
 class Solution:
     def getMinMax(self, arr):
         # code hdef findMinMax(arr):
