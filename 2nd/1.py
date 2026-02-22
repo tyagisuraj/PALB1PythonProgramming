@@ -20,6 +20,7 @@
 # 1 ≤ k ≤ 107
 # 1 ≤ n ≤ 105
 # 1 ≤ arr[i] ≤ 107
+
 class Solution:
     def getMinDiff(self, arr, k):
         n = len(arr)
@@ -38,3 +39,4 @@ class Solution:
             ans = min(ans, max_height - min_height)
         
         return ans
+
