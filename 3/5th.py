@@ -13,6 +13,7 @@
 # Input: arr[] = [121, 131, 20]
 # Output: false
 # Explanation: 20 is not a palindrome hence the output is false
+
 class Solution:
     def PalinArray(self, arr):
         for num in arr:
